@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_sample.xml"
+    app:startDestination="@id/bfhome">
+    <fragment
+        android:id="@+id/bfhome"
+        android:name="com.example.lalit.Fragment.bfhome"
+        android:label="fragment_bfhome"
+        tools:layout="@layout/fragment_bfhome" />
+    <fragment
+        android:id="@+id/bfhistory"
+        android:name="com.example.lalit.Fragment.bfhistory"
+        android:label="fragment_bfhistory"
+        tools:layout="@layout/fragment_bfhistory" />
+    <fragment
+        android:id="@+id/bfscearch"
+        android:name="com.example.lalit.Fragment.bfscearch"
+        android:label="fragment_bfscearch"
+        tools:layout="@layout/fragment_bfscearch" />
+    <fragment
+        android:id="@+id/bfpro"
+        android:name="com.example.lalit.Fragment.bfpro"
+        android:label="fragment_bfpro"
+        tools:layout="@layout/fragment_bfpro" />
+    <fragment
+        android:id="@+id/bfcart2"
+        android:name="com.example.lalit.Fragment.bfcart"
+        android:label="fragment_bfcart"
+        tools:layout="@layout/fragment_bfcart" />
+</navigation>

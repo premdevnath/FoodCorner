@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+  android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".ragister">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/editt"
+        android:elevation="30dp"
+        android:ems="10"
+        android:fontFamily="@font/kurale"
+        android:hint="username"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingStart="4dp"
+        android:shadowRadius="20"
+        android:textColorHint="#9C554C4C"
+        app:layout_constraintEnd_toEndOf="@+id/emaill"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/emaill"
+        app:layout_constraintTop_toBottomOf="@+id/emaill" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/editt"
+        android:elevation="30dp"
+        android:ems="10"
+        android:fontFamily="@font/kurale"
+        android:hint="password"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingStart="4dp"
+        android:shadowRadius="20"
+        android:textColorHint="#9C554C4C"
+        app:layout_constraintEnd_toEndOf="@+id/name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <EditText
+        android:id="@+id/emaill"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/editt"
+        android:elevation="30dp"
+        android:ems="10"
+        android:fontFamily="@font/kurale"
+        android:hint="email"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingStart="4dp"
+        android:shadowRadius="20"
+        android:textColorHint="#9C554C4C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/editt"
+        android:elevation="30dp"
+        android:ems="10"
+        android:fontFamily="@font/kurale"
+        android:hint="re-password"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingStart="4dp"
+        android:shadowRadius="20"
+        android:textColorHint="#9C554C4C"
+        app:layout_constraintEnd_toEndOf="@+id/password"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <Button
+        android:id="@+id/singin"
+        android:layout_width="155dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#111E11"
+        android:fontFamily="@font/kurale"
+        android:text="Singin"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/repassword"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="155dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#53E88B"
+        android:fontFamily="@font/kurale"
+        android:text="Register"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/singin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/singin"
+        app:layout_constraintTop_toTopOf="@+id/singin"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toTopOf="@+id/emaill"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/artifika"
+        android:text="Food Corner"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/artifika"
+        android:text="Sign Up Here"
+        android:textColor="#53E88B"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/calistoga"
+        android:text="Deliever your Favorite Food"
+        android:textColor="#53E88B"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

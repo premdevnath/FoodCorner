@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/artifika</item>
+        <item>@font/alegreya_sans_sc_light</item>
+        <item>@font/baloo_paaji</item>
+        <item>@font/calistoga</item>
+        <item>@font/fjalla_one</item>
+        <item>@font/kurale</item>
+        <item>@font/londrina_solid</item>
+    </array>
+</resources>

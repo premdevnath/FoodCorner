@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "900509056809",
+    "project_id": "lalit-1500e",
+    "storage_bucket": "lalit-1500e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900509056809:android:bf58346832ebfff1ae4138",
+        "android_client_info": {
+          "package_name": "com.example.lalit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm47g-renipPim6Pz2kHYrQJpqXHv0Xkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/bfhome"
+    android:title="Home"
+    android:icon="@drawable/home_04"
+    />
+    <item
+        android:id="@+id/bfcart2"
+        android:title="Cart"
+        android:icon="@drawable/shopping_cart_01"
+        />
+    <item
+        android:id="@+id/bfscearch"
+        android:title="Scearch"
+        android:icon="@drawable/icon"
+        />
+    <item
+        android:id="@+id/bfhistory"
+        android:title="History"
+        android:icon="@drawable/list"
+        />
+    <item
+        android:id="@+id/bfpro"
+        android:title="Profile"
+        android:icon="@drawable/user_01"
+        />
+</menu>
