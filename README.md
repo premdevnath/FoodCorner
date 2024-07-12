@@ -8,7 +8,8 @@ I have developed a food order app similar to Zomato and Swiggy. It features both
 ![Cart](https://github.com/user-attachments/assets/01150ad6-a7a9-4973-8cab-1ac3a16d97f6)
 ![Food Details](https://github.com/user-attachments/assets/cd3439ef-3bdb-4ffc-8923-15741f2fb986)
 ![Search](https://github.com/user-attachments/assets/76eea506-2927-4e49-8ebc-d5d9ae725e7e)
-![Admin Dashboard](https://github.com/user-attachments/assets/66e08c8b-c90e-44f6-8d17-cb3ec7da9253)
-![Create New User Admin](https://github.com/user-attachments/assets/a975b7d0-3222-4257-aafe-574065ddca97)
-![Admin Profile](https://github.com/user-attachments/assets/7b6679f0-c5a1-43b7-8a1a-8d360114026b)
+![Admin Dashboard](https://github.com/user-attachments/assets/1bc2a1ef-7f3b-44b9-8aa7-b57f04ca4e9a)
+![Create New User Admin](https://github.com/user-attachments/assets/10330568-dd55-4312-b4c2-fc6ecf540a78)
+![Admin Profile](https://github.com/user-attachments/assets/4cbda052-9e69-4e01-ab45-ad2e4ec5024e)
+
 
