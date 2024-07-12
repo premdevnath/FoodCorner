@@ -11,5 +11,8 @@ I have developed a food order app similar to Zomato and Swiggy. It features both
 ![Admin Dashboard](https://github.com/user-attachments/assets/1bc2a1ef-7f3b-44b9-8aa7-b57f04ca4e9a)
 ![Create New User Admin](https://github.com/user-attachments/assets/10330568-dd55-4312-b4c2-fc6ecf540a78)
 ![Admin Profile](https://github.com/user-attachments/assets/4cbda052-9e69-4e01-ab45-ad2e4ec5024e)
+# Firebase
+![Screenshot (494)](https://github.com/user-attachments/assets/2c20b7c9-c465-428e-9d5e-7bccf985553b)
+![Screenshot (495)](https://github.com/user-attachments/assets/09a99d68-fef1-4896-b5b4-aeb872ad0820)
 
 
